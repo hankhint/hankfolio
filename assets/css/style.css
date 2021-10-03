@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #fce138;
+  --secondary-color: #024e76;
+  --tertiary-color: #39a6b2;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -58,11 +64,29 @@ header nav ul li a {
 
 }
 .hero h1 {
- padding: 30px;
+ padding: 30px 47px;
+ background: whitesmoke;
+ background-size: cover;
+
 }
 /* Hero Style End */
 
-.
+
+/* Main Style Start */
+.info {
+  display: flex;
+}
+.info h1 {
+border-right: var(--secondary-color);
+flex-wrap: initial;
+}
+.info p {
+ flex-direction: row;
+}
+
+/* Main Style End */
+
+
 .primary-border {
   border-color: #fce138;
 }
