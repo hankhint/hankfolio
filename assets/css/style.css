@@ -44,22 +44,21 @@ header nav ul li a {
 }
 
 
-section {
-  padding: 60px;
-}
-
 /* Hero Style Start */
 .hero {
   background-image: url('../images/hero.jpg');
   background-size: cover;
   background-position: center;
-  position: relative;
   color: black;
   font-size: x-large;
-  text-align: right;
+  height: 200px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+
 }
 .hero h1 {
-  
+ padding: 30px;
 }
 /* Hero Style End */
 
