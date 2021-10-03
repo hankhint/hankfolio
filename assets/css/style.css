@@ -78,19 +78,13 @@ header nav ul li a {
   padding: 20px 20px 20px 20px;
 }
 
-.info h2 {
-  display: flex;
-  border-right: 10px solid var(--secondary-color);
-  justify-content: flex-start;
-  text-align: right;
-  flex: 1;
-  padding-right: 20px;
-  padding-left: 80px;
- 
-}
 
+}
+.info h2 {
+  text-align: right;
+}
 .info p {
- margin: 0 20px 0 20px;
+  margin: 0 20px 0 20px;
   flex-direction: row;
   text-align: left;
 }
@@ -103,4 +97,9 @@ header nav ul li a {
 
 .secondary-border {
   border-color: #39a6b2;
+}
+
+#divide {
+  border-right: 10px solid var(--secondary-color);
+  padding-left: 10px;
 }
