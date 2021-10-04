@@ -28,6 +28,8 @@ header h1 {
   color: #fce138;
   margin: 0;
   display: inline;
+  background: whitesmoke;
+  background-size: cover;
 }
 header a {
   text-decoration: none;
@@ -45,7 +47,6 @@ header nav ul li {
 
 header nav ul li a {
   margin: 0 30px;
-  font-weight: lighter;
   font-size: 22px;
 }
 /* END header styles */
@@ -76,20 +77,49 @@ header nav ul li a {
 .info {
   display: flex;
   padding: 20px 20px 20px 20px;
+  align-content: space-between;
 }
-
 
 }
 .info h2 {
-  text-align: right;
+  justify-content: flex-end;
 }
 .info p {
   margin: 0 20px 0 20px;
   flex-direction: row;
   text-align: left;
+  width: 75%;
 }
 
 /* END main styles */
+
+/* START footer styles */
+
+footer {
+  padding: 20px 20px;
+  background-color: var(--tertiary-color);
+
+}
+
+footer h2 {
+  font-weight: bold;
+  color: var(--secondary-color);
+  margin: 0;
+  float: right;
+}
+
+.info a {
+  font-size: x-large;
+  font-weight: bolder;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+
+.info ul {
+  display: inline;
+  margin: 0 30px;
+}
+
 
 .primary-border {
   border-color: #fce138;
@@ -97,6 +127,13 @@ header nav ul li a {
 
 .secondary-border {
   border-color: #39a6b2;
+}
+
+#contact-list {
+ display: flex;
+ font-weight: bolder;
+ margin: 0 30px;
+ justify-content: space-around;
 }
 
 #divide {
