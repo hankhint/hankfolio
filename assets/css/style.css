@@ -10,6 +10,11 @@
   box-sizing: border-box;
 }
 
+aside {
+  border-right: 10px solid var(--primary-color);
+  width: 15%;
+}
+
 body {
   /*  */
   color: var(--secondary-color);
@@ -56,9 +61,9 @@ header nav ul li a {
   background-image: url("../images/hero.jpg");
   background-size: cover;
   background-position: center;
-  color: black;
+  /* color: black; */
   font-size: x-large;
-  height: 200px;
+  height: 175px;
   display: flex;
   flex-direction: column-reverse;
   align-items: flex-end;
@@ -73,6 +78,9 @@ header nav ul li a {
 /* END hero styles */
 
 /* START main styles */
+main {
+  width: 100%;
+}
 
 .info {
   display: flex;
@@ -80,7 +88,6 @@ header nav ul li a {
   align-content: space-between;
 }
 
-}
 .info h2 {
   justify-content: flex-end;
 }
@@ -90,6 +97,7 @@ header nav ul li a {
   text-align: left;
   width: 75%;
 }
+
 
 /* END main styles */
 
@@ -116,8 +124,9 @@ footer h2 {
 }
 
 .info ul {
-  display: inline;
+  display: flex;
   margin: 0 30px;
+  list-style: none;
 }
 
 
@@ -131,12 +140,20 @@ footer h2 {
 
 #contact-list {
  display: flex;
+ flex-direction: row;
  font-weight: bolder;
- margin: 0 30px;
- justify-content: space-around;
-}
+ justify-content: space-evenly;
 
-#divide {
+}
+/* #contact-list ul {
+ 
+} */
+
+/* .divide {
   border-right: 10px solid var(--secondary-color);
   padding-left: 10px;
-}
+  width: 200px;
+  width: 20%;
+} */
+
+/* media queries */
