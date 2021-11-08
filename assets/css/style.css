@@ -145,15 +145,12 @@ footer h2 {
  justify-content: space-evenly;
 
 }
-/* #contact-list ul {
- 
-} */
 
-/* .divide {
-  border-right: 10px solid var(--secondary-color);
-  padding-left: 10px;
-  width: 200px;
-  width: 20%;
-} */
+.workitem {
+  padding: 10px
+  display: flex;
+  flex-direction: column;
+  
+}
 
 /* media queries */
